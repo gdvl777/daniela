@@ -18,8 +18,10 @@
             <a class="nav-link" href="#contacto">CONTACTO</a>
           </li>
         </nav>
-        <form id="form">
+        <form class="" action="https://www.freecodecamp.com/email-submit" method="post">
+
           <input type="email" id="email" name="" value="" placeholder="email">
+          <input type="submit" >
         </form>
 
         <iframe id="video" src="https://www.youtube-nocookie.com/embed/y8Yv4pnO7qc?rel=0&controls=0&showinfo=0" ></iframe>
@@ -29,7 +31,7 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
 <script>
-const emailRegex = 
+const emailRegex =
  new RegExp(/^[A-Za-z0-9_!#$%&'*+\/=?`{|}~^.-]+@[A-Za-z0-9.-]+$/, "gm");
  const isValid = emailRegex.test(document.getElementById("email").value)
 
